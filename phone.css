@@ -1,0 +1,29 @@
+
+#sec2-1{
+    flex-direction: column;
+    
+}
+#sec1{
+    display: block;
+    width: fit-content;
+  margin-left:auto;
+}
+.navbar{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    height: 150px;
+}
+.link a{
+    padding: 0px;
+}
+#sec1 h2 {
+    font-size: 35px;
+}
+#sec1 p{
+    font-size: 15px;
+}
+header::before {
+    height: 500px;
+}
